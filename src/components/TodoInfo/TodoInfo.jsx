@@ -6,7 +6,7 @@ export const TodoInfo = ({ todo }) => {
 
   return (
     <article
-      className={classNames(TodoInfo, {
+      className={classNames('TodoInfo', {
         'TodoInfo--completed': completed,
       })}
     >
